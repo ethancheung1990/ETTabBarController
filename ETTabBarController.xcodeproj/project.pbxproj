@@ -59,6 +59,7 @@
 		E24137CC1D61A60600550D81 /* tab_msg_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24137C11D61A60600550D81 /* tab_msg_p@2x.png */; };
 		E24137CD1D61A60600550D81 /* tab_wallet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24137C21D61A60600550D81 /* tab_wallet@2x.png */; };
 		E24137CE1D61A60600550D81 /* tab_wallet_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E24137C31D61A60600550D81 /* tab_wallet_p@2x.png */; };
+		E2E0CDE51E03CC9F00CF4C29 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E0CDE41E03CC9F00CF4C29 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -155,6 +156,7 @@
 		E24137C11D61A60600550D81 /* tab_msg_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_msg_p@2x.png"; sourceTree = "<group>"; };
 		E24137C21D61A60600550D81 /* tab_wallet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_wallet@2x.png"; sourceTree = "<group>"; };
 		E24137C31D61A60600550D81 /* tab_wallet_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_wallet_p@2x.png"; sourceTree = "<group>"; };
+		E2E0CDE41E03CC9F00CF4C29 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E0CDE51E03CC9F00CF4C29 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +176,7 @@
 			children = (
 				E24137321D61A39600550D81 /* ETTabBarController */,
 				E24137311D61A39600550D81 /* Products */,
+				E2E0CDE31E03CC9F00CF4C29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -321,6 +325,14 @@
 				E24137C31D61A60600550D81 /* tab_wallet_p@2x.png */,
 			);
 			path = DemoResource;
+			sourceTree = "<group>";
+		};
+		E2E0CDE31E03CC9F00CF4C29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2E0CDE41E03CC9F00CF4C29 /* Photos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -594,6 +606,7 @@
 				E24137491D61A39600550D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
